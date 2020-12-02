@@ -1,12 +1,12 @@
-print("Hello World");
+print("Hello Brian");
 char x = '!';
 println(x);
-println("You said \"Hello!\" to me.");
+println("You said \"Hello!\" to Brian.");
 //
-String name = "Mr. Mercer";
+String name = "Brian Ekwem";
 String phrase = "can count to";
-int highest_number = 0;
-long evenHigher = 0;
+int highest_number = 50;
+long evenHigher = 62;
 float backwardsCounting = 0.1;
 double wayBack = 0.0;
 //
@@ -29,7 +29,12 @@ println("Assignment Example, as formula:", highest_number+=13); //Returns 2xBake
 println("Memory Variable is",evenHigher); //Returns Baker's Dozen as memory
 println("Arithmetic Example as formula:",highest_number+1); //Returns 1+2xBaker's Dozen
 println("Modulo or Modulus Example:",evenHigher % 14); //Returns Baker's Dozen
-/*
 
-
-*/
+println("\nThis is my example");
+println("\nCounting with Formulae, exemplars using Dozen");
+println("Starting variable is", highest_number);
+evenHigher = highest_number+=12; 
+println("Assignment Example, as formula:", highest_number+=12);
+println("Memory Variable is",evenHigher);
+println("Arithmetic Example as formula:",highest_number+1);
+println("Modulo or Modulus Example:",evenHigher % 14);
